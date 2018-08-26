@@ -2,7 +2,7 @@
 ;;------------------------------------------------------------------------------
 
 (setq package-archives '(("org" . "http://orgmode.org/elpa/")
-			 ("melpa" . "http://melpa.org/packages/")
+	(provide 'startup)		 ("melpa" . "http://melpa.org/packages/")
                          ("gnu" . "http://elpa.gnu.org/packages/")))
   (setq package-enable-at-startup nil)
   (package-initialize)
@@ -39,7 +39,8 @@
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 (require 'startup)
 (require 'personal_info)
-
+;; For installation of dependencies
+(require 'after)
 
 ;; Loading custom directories
 ;;------------------------------------------------------------------------------

@@ -4,11 +4,40 @@
 (setq savehist-minibuffer-history-variables '(query-replace-history query-replace-from-to-history yes-or-no-p-history bookmark-history helm-M-x-input-history minibuffer-history extended-command-history file-name-history))
 (setq query-replace-history '("/Org" "/OrgMode"))
 (setq yes-or-no-p-history '("yes"))
+(setq bookmark-history '("Init file"))
 (setq helm-M-x-input-history '("list-pac"))
-(setq minibuffer-history '("/home/alen/.emacs.d/config/Config-whichkey.el" "/home/alen/.emacs.d/config/or" "/home/alen/.emacs.d/lisp/" "/home/alen/OrgMode/mygtd.org" "/home/alen/.emacs.d/config/" "/home/alen/.emacs.d/config/Config-avy.el" "Config-helm.el" "Config-org.el" "startup.el" "Config-ibuffer.el" "Config-winner_mode.el" "Config-acewindow.el" "/home/alen/.emacs.d/config/Config-acewindow.el" #("default" 0 7 (fontified t face font-lock-comment-face)) "/home/alen/.emacs.d/config/Config-winner_mode.el" "/home/alen/.emacs.d/config/Config-ibuffer.el" "config-org.el" "/home/alen/OneDrive/Projects/Emacs_Config-Dotemcs/config/org" "/home/alen/.emacs.d/config/Config-org.el" "/home/alen/Downloads/Emcas-24.4-master/" "Init file" "/home/alen/.emacs.d/ini" "/home/alen/.emacs.d/init.el" "core-boot.el" "init.el<Emacs_Config-Dotemcs>" "/home/alen/OneDrive/Projects/Emacs_Config-Dotemcs/" "/home/alen/OneDrive/Projects/Emacs_Config-Dotemcs/core/" "/home/alen/.emacs.d/config/003-pagebreaklines.el" "/home/alen/.emacs.d/config/003-dashboard.el" "helm-descbinds" "helm"))
+(setq minibuffer-history '("mygtd.org" "/home/alen/Org/" "/home/alen/.emacs.d/config/" "/home/alen/.emacs.d/ini" "init.el" "load-directory.el" "after.el" "/home/alen/.emacs.d/lisp/" "/home/alen/.emacs.d/lisp/l" "/home/alen/.emacs.d/lisp/after" "/home/alen/.emacs.d/lisp/after.el" "/home/alen/.emacs.d/config/Config-yasnippets_snippets.el" "/home/alen/.emacs.d/config/Config-yasnippets.el" "Config-yasnippets" "/home/alen/.emacs.d/config/Config-yasnippets" "/home/alen/.emacs.d/config/Config-whichkey.el" "/home/alen/.emacs.d/config/or" "/home/alen/OrgMode/mygtd.org" "/home/alen/.emacs.d/config/Config-avy.el" "Config-helm.el" "Config-org.el" "startup.el" "Config-ibuffer.el" "Config-winner_mode.el" "Config-acewindow.el" "/home/alen/.emacs.d/config/Config-acewindow.el" #("default" 0 7 (fontified t face font-lock-comment-face)) "/home/alen/.emacs.d/config/Config-winner_mode.el" "/home/alen/.emacs.d/config/Config-ibuffer.el" "config-org.el" "/home/alen/OneDrive/Projects/Emacs_Config-Dotemcs/config/org" "/home/alen/.emacs.d/config/Config-org.el" "/home/alen/Downloads/Emcas-24.4-master/" "Init file" "/home/alen/.emacs.d/init.el" "core-boot.el" "init.el<Emacs_Config-Dotemcs>" "/home/alen/OneDrive/Projects/Emacs_Config-Dotemcs/" "/home/alen/OneDrive/Projects/Emacs_Config-Dotemcs/core/" "/home/alen/.emacs.d/config/003-pagebreaklines.el" "/home/alen/.emacs.d/config/003-dashboard.el" "helm-descbinds" "helm"))
 (setq extended-command-history '(#("list-packages" 0 13 (match-part "list-packages")) "package-install"))
-(setq file-name-history '("~/.emacs.d/config/Config-org.el" "~/.emacs.d/lisp/startup.el" "~/.emacs.d/config/Config-acewindow.el" "~/OneDrive/Projects/Emacs_Config-Dotemcs/config/config-org.el" "~/Downloads/Emcas-24.4-master/myinit.org" "~/.emacs.d/init.el" "~/.emacs.d/config/Config-helm.el" "~/OneDrive/Projects/Emacs_Config-Dotemcs/init.el" "~/OneDrive/Projects/Emacs_Config-Dotemcs/core/core-boot.el" "~/.emacs.d/config/001-try.el" "~/.emacs.d/config/002-helm.el"))
-(setq kill-ring '("(use-package which-key
+(setq file-name-history '("~/Org/mygtd.org" "~/.emacs.d/config/Config-yasnippets_snippets.el" "~/.emacs.d/init.el" "~/.emacs.d/lisp/after.el" "~/.emacs.d/lisp/load-directory.el" "~/.emacs.d/lisp/startup.el" "~/.emacs.d/config/Config-org.el" "~/.emacs.d/config/Config-acewindow.el" "~/OneDrive/Projects/Emacs_Config-Dotemcs/config/config-org.el" "~/Downloads/Emcas-24.4-master/myinit.org" "~/.emacs.d/config/Config-helm.el" "~/OneDrive/Projects/Emacs_Config-Dotemcs/init.el" "~/OneDrive/Projects/Emacs_Config-Dotemcs/core/core-boot.el" "~/.emacs.d/config/001-try.el" "~/.emacs.d/config/002-helm.el"))
+(setq kill-ring '(#(";; For installation of dependencies
+(require 'after)" 0 2 (fontified t face font-lock-comment-delimiter-face) 2 3 (fontified t face font-lock-comment-delimiter-face) 3 36 (fontified t face font-lock-comment-face) 36 37 (fontified t) 37 44 (fontified t face font-lock-keyword-face) 44 46 (fontified t) 46 48 (fontified t face font-lock-constant-face) 48 51 (fontified t face font-lock-constant-face) 51 52 (fontified t)) #("(provide 'after)" 0 1 (fontified t) 1 8 (face font-lock-keyword-face fontified t) 8 10 (fontified t) 10 15 (face font-lock-constant-face fontified t) 15 16 (fontified t)) #("(provide 'load-directory)" 0 1 (fontified t) 1 8 (fontified t face font-lock-keyword-face) 8 10 (fontified t) 10 24 (fontified t face font-lock-constant-face) 24 25 (fontified t)) #("(provide 'startup)" 0 1 (fontified t) 1 8 (fontified t face font-lock-keyword-face) 8 10 (fontified t) 10 17 (fontified t face font-lock-constant-face) 17 18 (fontified t)) #("(provide 'startup)" 0 1 (fontified t) 1 6 (face font-lock-keyword-face fontified t) 6 8 (face font-lock-keyword-face fontified t) 8 10 (fontified t) 10 17 (face font-lock-constant-face fontified t) 17 18 (fontified t)) "(defmacro after (mode &rest body)
+  \"`eval-after-load' MODE evaluate BODY.\"
+  (declare (indent defun))
+  `(eval-after-load ,mode
+     '(progn ,@body)))" "yasnippet-snippets" "(use-package yasnippet
+  :ensure t" #("  ;; execute after magit has been loaded" 0 2 (fontified t) 2 5 (fontified t face font-lock-comment-delimiter-face) 5 40 (fontified t face font-lock-comment-face)) "(after 'magit
+  ;; execute after magit has been loaded
+  )" "(use-package yasnippet
+  :ensure t
+  :init
+    (yas-global-mode 1))" #("  :diminish yas-minor-mode" 0 2 (fontified t) 2 11 (face font-lock-builtin-face fontified t) 11 26 (fontified t)) "(use-package yasnippet
+  :diminish yas-minor-mode
+  :init (yas-global-mode)
+  :config
+  (progn
+    (yas-global-mode)
+    (add-hook 'hippie-expand-try-functions-list 'yas-hippie-try-expand)
+    (setq yas-key-syntaxes '(\"w_\" \"w_.\" \"^ \"))
+    (setq yas-installed-snippets-dir \"~/elisp/yasnippet-snippets\")
+    (setq yas-expand-only-for-last-commands nil)
+    (yas-global-mode 1)
+    (bind-key \"\\t\" 'hippie-expand yas-minor-mode-map)
+    (add-to-list 'yas-prompt-functions 'shk-yas/helm-prompt)))
+;;        (global-set-key (kbd \"C-c y\") (lambda () (interactive)
+;;                                         (yas/load-directory \"~/elisp/snippets\")))" "(use-package yasnippet
+  :ensure t
+  :init
+    (yas-global-mode 1))" "/home/alen/.emacs.d/Org" "(use-package which-key
 	:ensure t 
 	:config
 	(which-key-mode))" #("/OrgMode" 0 8 (fontified t face font-lock-string-face)) "(global-set-key (kbd \"C-c c\")
@@ -153,5 +182,5 @@
          (\"C-x c b\" . my/helm-do-grep-book-notes)
          (\"C-x c SPC\" . helm-all-mark-rings)))
 (ido-mode -1) ;; Turn off ido mode in case I enabled it accidentally"))
-(setq search-ring '("ox-re" "pa"))
+(setq search-ring '("afe" "ox-re" "pa"))
 (setq regexp-search-ring 'nil)

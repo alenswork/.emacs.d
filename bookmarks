@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Init file"
+(("org-capture-last-stored"
+ (filename . "~/Org/mygtd.org")
+ (front-context-string . "** TODO Boom\n   ")
+ (rear-context-string . " file\n\n\n* Tasks\n")
+ (position . 96))
+("Init file"
  (filename . "~/.emacs.d/init.el")
  (front-context-string . ";;Package link t")
  (rear-context-string)
