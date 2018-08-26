@@ -1,0 +1,13 @@
+(provide 'load-directory)
+
+;; Remove toolbar
+(tool-bar-mode -1)
+(display-time-mode 1)
+
+;; Change backup file Location
+(setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
+(setq delete-old-versions -1)
+(setq version-control t)
+(setq vc-make-backup-files t)
+(setq auto-save-file-name-transforms '((".*" "~/.emacs.d/auto-save-list/" t)))
+
