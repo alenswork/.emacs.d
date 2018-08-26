@@ -1,4 +1,5 @@
-;; Remove toolbar
+;; Some startup customizations
+(defalias 'yes-or-no-p 'y-or-n-p)
 (tool-bar-mode -1)
 (display-time-mode 1)
 
