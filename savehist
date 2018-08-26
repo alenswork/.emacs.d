@@ -4,7 +4,11 @@
 (setq savehist-minibuffer-history-variables '(query-replace-history query-replace-from-to-history yes-or-no-p-history bookmark-history helm-M-x-input-history minibuffer-history extended-command-history file-name-history))
 (setq query-replace-history '("/Org" "/OrgMode"))
 (setq yes-or-no-p-history '("yes"))
+<<<<<<< HEAD
 (setq bookmark-history '("org-capture-last-stored" "Init file"))
+=======
+(setq bookmark-history '("Init file"))
+>>>>>>> master
 (setq helm-M-x-input-history '("list-pac"))
 (setq minibuffer-history '("mygtd.org" "/home/alen/Org/" "/home/alen/.emacs.d/config/" "/home/alen/.emacs.d/ini" "init.el" "load-directory.el" "after.el" "/home/alen/.emacs.d/lisp/" "/home/alen/.emacs.d/lisp/l" "/home/alen/.emacs.d/lisp/after" "/home/alen/.emacs.d/lisp/after.el" "/home/alen/.emacs.d/config/Config-yasnippets_snippets.el" "/home/alen/.emacs.d/config/Config-yasnippets.el" "Config-yasnippets" "/home/alen/.emacs.d/config/Config-yasnippets" "/home/alen/.emacs.d/config/Config-whichkey.el" "/home/alen/.emacs.d/config/or" "/home/alen/OrgMode/mygtd.org" "/home/alen/.emacs.d/config/Config-avy.el" "Config-helm.el" "Config-org.el" "startup.el" "Config-ibuffer.el" "Config-winner_mode.el" "Config-acewindow.el" "/home/alen/.emacs.d/config/Config-acewindow.el" #("default" 0 7 (fontified t face font-lock-comment-face)) "/home/alen/.emacs.d/config/Config-winner_mode.el" "/home/alen/.emacs.d/config/Config-ibuffer.el" "config-org.el" "/home/alen/OneDrive/Projects/Emacs_Config-Dotemcs/config/org" "/home/alen/.emacs.d/config/Config-org.el" "/home/alen/Downloads/Emcas-24.4-master/" "Init file" "/home/alen/.emacs.d/init.el" "core-boot.el" "init.el<Emacs_Config-Dotemcs>" "/home/alen/OneDrive/Projects/Emacs_Config-Dotemcs/" "/home/alen/OneDrive/Projects/Emacs_Config-Dotemcs/core/" "/home/alen/.emacs.d/config/003-pagebreaklines.el" "/home/alen/.emacs.d/config/003-dashboard.el" "helm-descbinds" "helm"))
 (setq extended-command-history '(#("list-packages" 0 13 (match-part "list-packages")) "package-install"))
